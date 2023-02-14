@@ -1,0 +1,225 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.title {
+  margin-left: 3em;
+}
+.title .logo_start {
+  float: left;
+  margin-top: 0.3rem;
+  margin-right: 0.5em;
+  width: 1.3em;
+}
+.title .logo_start path {
+  fill: #8B3A11;
+}
+.title .logo {
+  color: #8B3A11;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.title nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: -1.5em;
+  margin-left: 26em;
+  justify-content: right;
+}
+.title nav ul a {
+  color: #8B3A11;
+  padding: 0.75em 1.2em;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.title nav ul a:hover {
+  font-weight: bold;
+}
+
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 465px;
+  margin-top: 2.5em;
+}
+.hero .mySlides {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-line {
+  position: absolute;
+  top: 8px;
+  margin-top: 6em;
+  width: 97%;
+  text-align: center;
+}
+.hero-line h1 {
+  font-size: 3rem;
+  color: white;
+  line-height: 3.3rem;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  margin-left: 1em;
+}
+.hero-line .subhead {
+  color: white;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: black;
+  margin-left: 3em;
+  margin-top: -2.5em;
+  font-weight: bolder;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-left: 3em;
+  gap: 2em;
+}
+.intro .picture {
+  margin-left: 3em;
+  margin-top: 4em;
+  width: 30%;
+  height: 70vh;
+}
+.intro .picture img {
+  width: 100%;
+  height: 100%;
+}
+.intro .description {
+  color: rgb(0, 0, 0);
+  width: 65%;
+  font-size: 1.2rem;
+  margin-top: 8em;
+  height: 40vh;
+  align-items: center;
+  display: flex;
+}
+.intro .description .text {
+  width: 95%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #7c7c7c;
+  margin-top: 5em;
+  padding: 20px 20px;
+}
+.comment-container .photo {
+  height: 40vh;
+  width: 30%;
+}
+.comment-container .photo img {
+  width: 100%;
+  height: 100%;
+}
+.comment-container .information {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.comment-container .information .name {
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  height: 5vh;
+}
+.comment-container .information .post {
+  width: 100%;
+  height: 25vh;
+}
+.comment-container .information .post textarea {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.comment-container .information .submit1 {
+  width: 100%;
+  height: 5vh;
+  text-align: right;
+}
+.comment-container .information .submit1 button {
+  height: 100%;
+  background-color: #C05C5A;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #c8807f;
+  color: white;
+}
+.comment-container .information .submit1 button:hover {
+  background-color: #C05C5A;
+  color: white;
+}
+
+footer {
+  margin-top: 4em;
+  background-color: #C05C5A;
+  padding: 5px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #7c7c7c;
+  margin-top: 5em;
+  padding: 20px 20px;
+}
+.comment .photo1 {
+  height: 40vh;
+  width: 30%;
+}
+.comment .photo1 img {
+  width: 100%;
+  height: 100%;
+}
+.comment .information1 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.comment .information1 .name1 {
+  width: 100%;
+  font-weight: bold;
+  font-style: italic;
+  height: 5vh;
+}
+.comment .information1 .post1 {
+  width: 100%;
+  height: 25vh;
+}
+.comment .information1 .post1 .commented {
+  border-style: solid;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}/*# sourceMappingURL=review.css.map */
